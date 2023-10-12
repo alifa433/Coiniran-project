@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decentralized Voting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Decentralized Voting</h1>
+
+    <div class="container">
+        <div class="poll-section">
+            <h2>Create a New Poll</h2>
+            <label for="pollTitle">Poll Title:</label>
+            <input type="text" id="pollTitle">
+            <label for="options">Poll Options (comma-separated):</label>
+            <input type="text" id="options">
+            <label for="closingDate">Closing Date:</label>
+            <input type="date" id="closingDate">
+            <button onclick="createPoll()">Create Poll</button>
+        </div>
+
+        <div class="poll-section">
+            <h2>Polls</h2>
+            <ul id="pollList"></ul>
+        </div>
+
+        <div class="poll-section">
+            <h2>Vote in a Poll</h2>
+            <label for="pollId">Select Poll:</label>
+            <select id="pollId"></select>
+            <label for="voteOption">Select Option:</label>
+            <select id="voteOption"></select>
+            <button onclick="voteInPoll()">Vote</button>
+        </div>
+    </div>
+
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
