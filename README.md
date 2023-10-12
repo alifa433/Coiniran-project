@@ -1,6 +1,24 @@
 # Coiniran-project
 # Decentralized Voting Project
 
+# Decentralized Voting Application
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Author](#author)
+- [License](#license)
+
+## Introduction
+
+The Decentralized Voting Application is a blockchain-based voting system built on the Ethereum platform. It allows users to create polls, cast their votes, and view poll results in a transparent and secure manner. This project is designed to showcase the power of blockchain technology in ensuring the integrity of voting processes.
+
+## Getting Started
+
+To run this project locally, follow these steps:
 Features
 Create Polls: Users can create new polls by providing a title, options, and a closing date. These polls are recorded on the Ethereum blockchain.
 
@@ -37,5 +55,16 @@ JavaScript: Programming language for building interactive web applications.
 Author
 Name: Ali Farhani
 Email: alifarhani7727315@gmail.com
-License
-This project is licensed under the MIT License. You can find the full license details in the LICENSE file.
+
+### Prerequisites
+
+1. Node.js and npm: Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download them from [https://nodejs.org/](https://nodejs.org/).
+
+2. Ethereum Development Environment: Set up an Ethereum development environment. You can use Ganache for a local development blockchain, or connect to an Ethereum testnet.
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone [repository-url]
